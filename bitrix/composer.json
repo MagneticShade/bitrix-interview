@@ -1,0 +1,21 @@
+{
+    "require": {
+        "wikimedia/composer-merge-plugin": "dev-master",
+        "paquettg/php-html-parser": "^2.2",
+        "curl/curl": "^2.5",
+        "php-webdriver/webdriver": "^1.15",
+        "symfony/css-selector": "^6.4"
+    },
+    "extra": {
+        "merge-plugin": {
+            "require": [
+                "composer-bx.json"
+            ]
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "wikimedia/composer-merge-plugin": true
+        }
+    }
+}

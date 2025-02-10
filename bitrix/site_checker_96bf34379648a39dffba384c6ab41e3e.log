@@ -1,0 +1,130 @@
+2025-Feb-09 12:45:01 Наличие необходимых модулей php (check_php_modules): Ok
+Все необходимые модули установлены
+2025-Feb-09 12:45:01 Обязательные параметры PHP (check_php_settings): Fail
+Ошибка! Значение max_input_vars должно быть не ниже 10000. Текущее значение: 1000
+2025-Feb-09 12:45:02 Модули веб-сервера (check_security): Ok
+Конфликтов не выявлено
+2025-Feb-09 12:45:02 Значения переменных сервера (check_server_vars): Fail
+Ошибка! Текущий домен не валидный (bitrix24). Может содержать только цифры, латинские буквы и дефис. Должен содержать точку.
+2025-Feb-09 12:45:03 Сохранение сессии (check_session): Ok
+50% done
+2025-Feb-09 12:45:05 Сохранение сессии (check_session): Ok
+Успешно
+2025-Feb-09 12:45:06 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
+Правильные. Сайт работает в UTF кодировке
+2025-Feb-09 12:45:07 Служебные скрипты в корне сайта (check_install_scripts): Ok
+Отсутствуют
+2025-Feb-09 12:45:07 Работа с сокетами (check_socket): Ok
+Connection to bitrix24:80	Success
+
+Успешно
+2025-Feb-09 12:45:08 Выполнение агентов на cron (check_bx_crontab): Warning
+Замечание. Агенты выполняются на хитах, рекомендуется перевести выполнение агентов на cron
+2025-Feb-09 12:45:09 Лишний вывод в файлах конфигурации (check_dbconn): Ok
+Connection to bitrix24:80	Success
+
+Успешно
+2025-Feb-09 12:45:09 Сохранение сессии без UserAgent (check_session_ua): Ok
+50% done
+Connection to bitrix24:80	Success
+
+2025-Feb-09 12:45:09 Сохранение сессии без UserAgent (check_session_ua): Ok
+Connection to bitrix24:80	Success
+
+Успешно
+2025-Feb-09 12:45:10 Настройки сайтов (check_sites): Ok
+Правильные
+2025-Feb-09 12:45:11 Размер стека и pcre.recursion_limit (check_pcre_recursion): Ok
+Connection to bitrix24:80	Success
+
+Успешно
+2025-Feb-09 12:45:11 Загрузка файла (check_upload): Ok
+Connection to bitrix24:80	Success
+
+Успешно
+2025-Feb-09 12:45:12 Загрузка файла больше 4Мб (check_upload_big): Ok
+Connection to bitrix24:80	Success
+
+Успешно
+2025-Feb-09 12:45:12 Загрузка файла через php://input (check_upload_raw): Ok
+Connection to bitrix24:80	Success
+
+Успешно
+2025-Feb-09 12:45:13 Передача POST запроса с большим числом параметров (check_post): Ok
+Connection to bitrix24:80	Success
+
+Успешно
+2025-Feb-09 12:45:13 Отправка почты (check_mail): Ok
+Успешно
+2025-Feb-09 12:45:14 Отправка почтового сообщения больше 64Кб (check_mail_big): Ok
+Успешно
+2025-Feb-09 12:45:14 Проверка на наличие неотправленных сообщений (check_mail_b_event): Ok
+Успешно
+2025-Feb-09 12:45:15 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+50% done
+Connection to bitrix24:80	Success
+
+2025-Feb-09 12:45:15 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+Connection to bitrix24:80	Success
+
+Успешно
+2025-Feb-09 12:45:16 Фактическое ограничение памяти (check_memory_limit): Ok
+20% done
+Connection to bitrix24:80	Success
+
+2025-Feb-09 12:45:16 Фактическое ограничение памяти (check_memory_limit): Ok
+40% done
+Connection to bitrix24:80	Success
+
+2025-Feb-09 12:45:17 Фактическое ограничение памяти (check_memory_limit): Ok
+60% done
+Connection to bitrix24:80	Success
+
+2025-Feb-09 12:45:17 Фактическое ограничение памяти (check_memory_limit): Ok
+80% done
+Connection to bitrix24:80	Success
+
+2025-Feb-09 12:45:18 Фактическое ограничение памяти (check_memory_limit): Ok
+Connection to bitrix24:80	Success
+
+Не менее 256 М
+2025-Feb-09 12:45:18 Работа с файлами кеша (check_cache): Ok
+Успешно
+2025-Feb-09 12:45:21 Доступ к серверу обновлений (check_update): Ok
+Успешно
+2025-Feb-09 12:45:21 HTTP авторизация (check_http_auth): Ok
+Connection to bitrix24:80	Success
+
+Успешно
+2025-Feb-09 12:45:22 Создание и запуск файла (check_exec): Ok
+Connection to bitrix24:80	Success
+
+Успешно
+2025-Feb-09 12:45:22 Функция getimagesize для swf (check_getimagesize): Ok
+Успешно
+2025-Feb-09 12:45:23 Версия MySQL-сервера (check_mysql_bug_version): Ok
+Успешно
+2025-Feb-09 12:45:24 Время на БД и веб-сервере (check_mysql_time): Ok
+Успешно
+2025-Feb-09 12:45:24 Режим работы MySQL (check_mysql_mode): Ok
+Успешно
+2025-Feb-09 12:45:24 Кодировка соединения (check_mysql_connection_charset): Ok
+character_set_connection=utf8mb4, collation_connection=utf8mb4_unicode_ci, character_set_results=utf8mb4
+Успешно
+2025-Feb-09 12:45:25 Кодировка базы данных (check_mysql_db_charset): Ok
+CHARSET=utf8mb4, COLLATION=utf8mb4_unicode_ci
+Успешно
+2025-Feb-09 12:45:25 Формат хранения таблиц в БД (check_mysql_table_format): Ok
+Успешно
+2025-Feb-09 12:45:36 Кодировки таблиц в БД (check_mysql_table_charset): Ok
+92% done
+2025-Feb-09 12:45:37 Кодировки таблиц в БД (check_mysql_table_charset): Ok
+Успешно
+2025-Feb-09 12:45:37 Структура базы данных (check_mysql_table_structure): Ok
+0% done
+2025-Feb-09 12:45:38 Структура базы данных (check_mysql_table_structure): Ok
+5% done
+2025-Feb-09 12:45:39 Структура базы данных (check_mysql_table_structure): Ok
+11% done
+2025-Feb-09 12:45:45 Структура базы данных (check_mysql_table_structure): Ok
+16% done
